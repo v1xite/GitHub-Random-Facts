@@ -1,9 +1,6 @@
 const facts = require('./facts.json');
 
 module.exports = (req, res) => {
-  // =========================================================
-  // 1. Pick a random fact
-  // =========================================================
   if (!facts || facts.length === 0) {
     const errorSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="50">
       <text x="10" y="30" style="font-family: monospace; fill: red;">ERROR: Facts file is empty!</text>
@@ -17,13 +14,11 @@ module.exports = (req, res) => {
   const fact = facts[randomIndex];
   const factText = fact && fact.text ? fact.text : "Error loading fact text.";
 
-  // =========================================================
-  // 2. SVG styling
-  // =========================================================
   const width = 650;
   const height = 180;
   const bgColor = '#151515';
   const textColor = '#B0B0B0';
+  const quoteColor = '#4DA6FF'; // blue quotes
 
   const svg = `
     <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,24 +33,17 @@ module.exports = (req, res) => {
           box-sizing: border-box;
         ">
           <p style="color: ${textColor}; font-size: 22px; font-weight: 400; font-style: italic; line-height: 1.4; margin: 0; padding: 0; text-align: left;">
-            ${factText}
+            <span style="color: ${quoteColor};">“</span>${factText}<span style="color: ${quoteColor};">”</span>
           </p>
         </div>
       </foreignObject>
     </svg>
   `;
 
-  // =========================================================
-  // 3. Set headers to force GitHub to always fetch a fresh SVG
-  // =========================================================
   res.setHeader('Content-Type', 'image/svg+xml');
   res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
   res.setHeader('Pragma', 'no-cache');
   res.setHeader('Expires', '0');
 
-  // =========================================================
-  // 4. Send the SVG
-  // =========================================================
   res.send(svg);
 };
-
