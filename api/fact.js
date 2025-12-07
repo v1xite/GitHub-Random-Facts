@@ -1,7 +1,7 @@
 // api/fact.js
 
 // Important: Path is relative to the root project directory, not the api directory
-const facts = require('../facts.json'); 
+const facts = require('./facts.json'); // This looks for it inside the same folder
 
 // Serverless function entry point for Vercel
 module.exports = (req, res) => {
