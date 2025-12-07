@@ -33,9 +33,9 @@ module.exports = (req, res) => {
           box-sizing: border-box;
         ">
           <p style="color: ${textColor}; font-size: 22px; font-weight: 400; font-style: italic; line-height: 1.4; margin: 0; padding: 0; text-align: left;">
-            <span style="color: ${quoteColor}; font-size: 28px; font-family: 'Georgia', serif;">❝</span>
+            <span style="color: ${quoteColor}; font-size: 28px; font-family: 'Georgia', serif;">“</span>
             ${factText}
-            <span style="color: ${quoteColor}; font-size: 28px; font-family: 'Georgia', serif;">❞</span>
+            <span style="color: ${quoteColor}; font-size: 28px; font-family: 'Georgia', serif;">”</span>
           </p>
         </div>
       </foreignObject>
@@ -49,4 +49,3 @@ module.exports = (req, res) => {
 
   res.send(svg);
 };
-
