@@ -1,36 +1,35 @@
-
-name: Update Random Fact README
+name: Update Random Fact in README
 
 on:
-  # Schedule this job to run twice a day (every 12 hours)
   schedule:
     - cron: '0 */12 * * *'
-  # Allows manual triggering from the Actions tab
   workflow_dispatch:
 
 jobs:
   update-fact:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Find and Replace Cache Buster
+      - name: Update cache-buster timestamp
         run: |
-          # 1. Get the current timestamp (unique number)
           timestamp=$(date +%s)
-          # 2. Get the current README content
-          readme_content=$(cat README.md)
-          
-          # 3. Use sed to replace the old '?t=...' parameter with the new timestamp
-          # It looks for the start of your fact URL and replaces everything after ?t=
-          updated_content=$(echo "$readme_content" | sed -E "s/(\/api\/fact\?t=)[0-9]+/\1$timestamp/")
-          
-          # 4. Write the updated content back to the file
-          echo "$updated_content" > README.md
 
-      - name: Commit and Push Changes
+          # If the URL already has ?t=123...
+          if grep -q "?t=" README.md; then
+            sed -i "s#\(api/fact?t=\)[0-9]*#\1$timestamp#g" README.md
+          else
+            # If README has no ?t= yet, append it
+            sed -i "s#api/fact#api/fact?t=$timestamp#g" README.md
+          fi
+
+      - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: '🤖 Auto-update: Refreshing random fact cache-buster'
-          branch: main # **IMPORTANT:** Check your default branch (usually 'main')
+          commit_message: "🔄 Auto-refresh random fact"
+          branch: main
+          commit_options: '--no-verify'
