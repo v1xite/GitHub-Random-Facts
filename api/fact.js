@@ -1,7 +1,7 @@
 // api/fact.js
-console.log("API /api/fact was called");
 
 const facts = require('./facts.json'); 
+console.log("API /api/fact was called");
 
 // Serverless function entry point for Vercel
 module.exports = (req, res) => {
@@ -94,5 +94,6 @@ module.exports = (req, res) => {
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate'); 
     
     // 5. Send the SVG string
+    console.log("SVG output preview:", svg.slice(0, 50));
     res.send(svg);
 };
