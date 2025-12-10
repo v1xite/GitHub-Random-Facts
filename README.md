@@ -1,3 +1,6 @@
+<h1 align="center"> <img src="assets/logo/wave.png" height="35px" width="35px"> </h1>
+
+
 # 🎨 Theme Previews — Random Facts Generator
 ## 🕶 Dark Themes
 
