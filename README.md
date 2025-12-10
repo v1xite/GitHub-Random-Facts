@@ -1,11 +1,6 @@
 <h1 align="center"> <img src="assets/logo/wave.png" height="35px" width="35px"> </h1>
 
 
-<div align="center">
-### 🎨 Themes
-</div>
-
-
 ## 🕶 Dark Themes
 
 <table>
