@@ -9,6 +9,23 @@
 - You can see all themes bellow
 
 
+
+## 📋 Usage notes
+
+- Insert this anywhere in your README:
+
+  ![Random Fact](https://random-facts-generator-two.vercel.app/api/fact?theme=dark_blue)
+
+- Change the theme by modifying the last part `theme=`  
+  Example:  
+  `theme=crystals`
+
+- You can see all themes below.
+
+
+
+
+
 ## 🕶 Dark Themes
 
 <table>
