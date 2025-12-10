@@ -5,6 +5,63 @@
 <tr>
 <td>
 
+
+
+# Theme Previews
+
+Бұл репозиторийде барлық қолжетімді theme-тер көрсетілген. Әрбір theme-тің **фон, текст және quote түсі** дәл сервердегі сияқты көрінеді.
+
+---
+
+### dark_blue
+<svg width="650" height="180" viewBox="0 0 650 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="650" height="180" fill="#151515" rx="8"/>
+  <foreignObject x="20" y="20" width="610" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex; align-items:flex-start; justify-content:flex-start; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; height:100%; box-sizing:border-box;">
+      <p style="color:#B0B0B0; font-size:22px; font-weight:400; font-style:italic; line-height:1.4; margin:0; padding:0; text-align:left;">
+        <span style="color:#4DA6FF; font-size:28px; font-family:'Georgia', serif;">“</span>
+        dark_blue
+        <span style="color:#4DA6FF; font-size:28px; font-family:'Georgia', serif;">”</span>
+      </p>
+    </div>
+  </foreignObject>
+</svg>
+
+---
+
+### dark_red
+<svg width="650" height="180" viewBox="0 0 650 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="650" height="180" fill="#151515" rx="8"/>
+  <foreignObject x="20" y="20" width="610" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex; align-items:flex-start; justify-content:flex-start; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; height:100%; box-sizing:border-box;">
+      <p style="color:#B0B0B0; font-size:22px; font-weight:400; font-style:italic; line-height:1.4; margin:0; padding:0; text-align:left;">
+        <span style="color:#ff4d4dff; font-size:28px; font-family:'Georgia', serif;">“</span>
+        dark_red
+        <span style="color:#ff4d4dff; font-size:28px; font-family:'Georgia', serif;">”</span>
+      </p>
+    </div>
+  </foreignObject>
+</svg>
+
+---
+
+### dark_orange
+<svg width="650" height="180" viewBox="0 0 650 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="650" height="180" fill="#151515" rx="8"/>
+  <foreignObject x="20" y="20" width="610" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex; align-items:flex-start; justify-content:flex-start; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; height:100%; box-sizing:border-box;">
+      <p style="color:#B0B0B0; font-size:22px; font-weight:400; font-style:italic; line-height:1.4; margin:0; padding:0; text-align:left;">
+        <span style="color:#ff974dff; font-size:28px; font-family:'Georgia', serif;">“</span>
+        dark_orange
+        <span style="color:#ff974dff; font-size:28px; font-family:'Georgia', serif;">”</span>
+      </p>
+    </div>
+  </foreignObject>
+</svg>
+
+---
+fsadfads
+
 <!-- dark_blue -->
 <svg width="260" height="80" xmlns="http://www.w3.org/2000/svg">
   <rect width="260" height="80" rx="10" fill="#151515"/>
