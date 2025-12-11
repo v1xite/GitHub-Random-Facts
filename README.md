@@ -1,4 +1,5 @@
-<h1 align="center"> <img src="assets/logo/wave.png" height="60px" width="60px"> </h1>
+<p align="center"> 
+<img align="center" src="assets/logo/wave.png" height="60px" width="60px" />
 
 
 ## 📋 Usage notes
