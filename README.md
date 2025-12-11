@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/github_logo/v1xite_github2.png" width="15%" />
+  <img src="assets/github_logo/v1xite_github3.png" width="15%" />
 </p>
     
 
