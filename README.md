@@ -2,7 +2,7 @@
   <img align="center" src="assets/logo/wave.png" height="60px" width="60px" />
 
   <h1 align="center">Github Random Facts</h1>
-  <h3 align="center">Random IT/Programming Facts For Your GitHub Profile Readme.</h3>\
+  <h3 align="center">Random IT/Programming Facts For Your GitHub Profile Readme.</h3>
 </p>
 
     
