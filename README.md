@@ -264,6 +264,7 @@
 If you find this useful, consider leaving a star — it truly helps the project grow.
 
 ---
+
 ## ✦ Author
 
 **v1xite**
@@ -274,4 +275,6 @@ If you find this useful, consider leaving a star — it truly helps the project 
 📌 [Pinterest](https://pinterest.com/v1xite)  
 💻 [GitHub](https://github.com/v1xite)
 
-
+<p align="center"> 
+Made by: v1xite and JavaScript
+</p>
