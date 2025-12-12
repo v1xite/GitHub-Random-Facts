@@ -23,7 +23,7 @@
   ```md
   ### 🌊 Random IT Facts
   ![Random Fact](https://random-facts-generator-two.vercel.app/api/fact?theme=dark_blue)
-- To use another theme: change the value of theme= (example: theme=crystals)
+- To use another theme: change the value of theme= (example: theme=arctic)
 - All available themes are shown below.
 
 
@@ -251,6 +251,11 @@
   </tr>
 </table>
 </div>
+
+---
+
+inspired from:  <a href="https://github.com/PiyushSuthar/github-readme-quotes?tab=readme-ov-file">
+<p>github-readme-quotes</p>
 
 ---
 
