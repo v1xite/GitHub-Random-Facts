@@ -277,6 +277,6 @@ If you find this useful, consider leaving a star — it truly helps the project 
 
 <p align="center">
   <a href="https://github.com/v1xite">
-    <img src="https://img.shields.io/badge/made%20by-v1xite-blue?logo=javascript&logoColor=white" alt="Made by v1xite">
+    <img src="assets/github_logo/v1xite_javascript.png" alt="Made by v1xite and JavaScript">
   </a>
 </p>
