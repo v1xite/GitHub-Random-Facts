@@ -269,11 +269,11 @@ If you find this useful, consider leaving a star — it truly helps the project 
 
 **v1xite**
 
-📘 [AniList](https://anilist.co/user/v1xite)  
-📸 [Instagram](https://instagram.com/v1xite)  
-🎵 [TikTok](https://tiktok.com/@v1xite)  
+📘 [AniList](https://anilist.co/user/l1e)  
+📸 [Instagram](https://instagram.com/liyfez)  
+🎵 [TikTok](https://tiktok.com/@liyf.ez)  
 📌 [Pinterest](https://pinterest.com/v1xite)  
-💻 [GitHub](https://github.com/v1xite)
+💻 [GitHub](https://github.com/liyfez)
 
 <p align="center">
   <a href="https://github.com/v1xite">
